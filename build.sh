@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # To set DockerHub Repo or TAG from the command line:
-#   $ TAG="latest" DHREPO="harvest/join_our_ops_team" ./build.sh -e
+#   $ TAG="latest" DHREPO="jetsnoc/devkitchen-docker" ./build.sh -e
 
 if [ -z "$TAG" ]; then
     TAG="latest"
